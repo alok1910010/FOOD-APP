@@ -1,0 +1,128 @@
+/* universal styling */
+
+*{
+    padding:0px;
+    margin:0px;
+}
+
+/* body styling */
+body{
+    background-color:gainsboro;
+}
+
+/* navbar styling */
+#navbar{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: darkslateblue;
+}
+
+/* left content in navbar */
+#leftbar{
+    width:40%;
+    padding:10px;
+    margin-left:80px;
+}
+#leftbar i{
+    margin-right:60px;
+    font-size:20px;
+    padding:10px;
+    color:white;
+}
+i:hover{
+    color:aqua
+}
+/* right content in navbar */
+#rightbar{
+    width:40%;
+    padding:10px;
+}
+#rightbar li{
+    list-style: none;
+    display:inline-block;
+    margin-right:60px;
+    font-size:20px;
+   
+    padding:10px;
+}
+#rightbar li a{
+    text-decoration: none;
+    color:white;
+}
+#rightbar li a:hover{
+    color:aqua
+    
+}
+
+/* Heading tag */
+body>h2{
+    color:crimson;
+    text-align:center;
+    padding:10px;
+}
+
+/* searchbar styling */
+#searchbar{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+#searchbar input{
+    position:relative;
+    padding:10px;
+    width:300px;
+    border:1px solid darkslateblue;
+}
+#searchbar i{
+    color:gray;
+    padding:10px;
+    background-color:white;
+    border:1px solid darkslateblue;
+    
+}
+
+/* search bar content display */
+#searchbox{
+    display:none;
+    position:absolute;
+    top:150px;
+    left:582px;
+    width:355px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height:auto;
+    max-height: 200px;
+    overflow-y: scroll;
+    background-color:white;
+}
+#searchbox p:hover{
+    cursor:pointer;
+    background:gainsboro;
+}
+
+/* food items div */
+
+#fooditems{
+    width:100%;
+    margin-top:30px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#fooditems div{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    padding:10px;
+}
+#fooditems img{
+    width:500px;
+    height:400px;
+}
+#fooditems div p{
+    padding:5px;
+    color:teal;
+}
